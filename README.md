@@ -48,8 +48,8 @@
     3) -> Now you merge main in parsing : ~minishell<parsing> git merge origin main
   # if you have no merge conflict you can merge in main and push
        L->  ~minishell<parsing> git checkout main
-            ~minishell<parsing> git merge origin parsing
-            ~minishell<parsing> git push origin main
+            ~minishell<main> git merge origin parsing
+            ~minishell<main> git push origin main
   # else if you have merge conflict 
       4)  -> change the files that have merge conflict in <parsing> branch
       5)  -> Then add the file, and commit in <parsing> branch
