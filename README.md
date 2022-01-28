@@ -1,4 +1,4 @@
-# Git_commande
+# Git_commands
 # Useful commands on git to know :
 
   --- Git push ---
